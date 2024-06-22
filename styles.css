@@ -39,7 +39,7 @@ a {
 }
 .website-info {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     margin-top: 6%;
     margin-bottom: 6%;
     align-items: center;
