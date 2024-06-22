@@ -17,7 +17,16 @@ a {
     text-decoration: none;
     color: white;
 }
-button {
+
+.header-text {
+    display: inline;
+    font-weight: bold;
+}
+.header-content {
+    background-color: #26223b;
+    color: white;
+}
+.header-button {
     background-color: #0086ed;
     color: white;
     font-weight: bold;
@@ -26,14 +35,7 @@ button {
     padding-top: 7px;
     padding-bottom: 7px;
     width: 100px;
-}
-.header-text {
-    display: inline;
-    font-weight: bold;
-}
-.header-content {
-    background-color: #26223b;
-    color: white;
+    cursor: pointer;
 }
 .website-info {
     display: flex;
@@ -85,4 +87,36 @@ button {
     font-size: 20pt;
     max-width: 50%;
     margin: auto;
+}
+.prompt {
+    display: flex;
+    justify-content: center;
+}
+.modal {
+    border: 3px solid #0086ed;
+    border-radius: 4px;
+    background-color: #0086ed;
+    color: white;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    width: 70%;
+    margin: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+.modal-text {
+    display: flex;
+    flex-direction: column;
+}
+.footer-button {
+    background-color: #0086ed;
+    color: white;
+    font-weight: bold;
+    border-radius: 4px;
+    border: 2px solid white;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    width: 100px;
+    cursor: pointer;
+
 }
